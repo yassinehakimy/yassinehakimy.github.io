@@ -1,10 +1,8 @@
-# yassinehakimy.github.io
-My business website
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Business Website</title>
+  <title>Yassine Hakimy Business</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -16,13 +14,20 @@ My business website
     header {
       background-color: #1e90ff;
       color: white;
-      padding: 30px 10px;
+      padding: 40px 10px;
     }
     section {
-      padding: 20px;
+      padding: 30px 20px;
     }
     h2 {
       color: #333;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      padding: 8px 0;
     }
     .btn {
       display: inline-block;
@@ -32,7 +37,7 @@ My business website
       text-decoration: none;
       border-radius: 6px;
       font-size: 16px;
-      margin-top: 10px;
+      margin-top: 15px;
     }
     footer {
       background-color: #222;
@@ -45,23 +50,27 @@ My business website
 <body>
 
 <header>
-  <h1>Welcome to My Business</h1>
-  <p>We provide professional and reliable services</p>
+  <h1>Welcome to Yassine Hakimy Business</h1>
+  <p>We provide professional and reliable services for all your needs</p>
 </header>
 
 <section>
   <h2>Our Services</h2>
-  <p>Service 1 – Service 2 – Service 3</p>
+  <ul>
+    <li>Service 1: Web Design</li>
+    <li>Service 2: Digital Marketing</li>
+    <li>Service 3: Graphic Design</li>
+  </ul>
 </section>
 
 <section>
   <h2>Contact Us</h2>
-  <p>Feel free to reach us via WhatsApp</p>
+  <p>Feel free to reach us via WhatsApp:</p>
   <a class="btn" href="https://wa.me/212XXXXXXXXX">WhatsApp</a>
 </section>
 
 <footer>
-  <p>&copy; 2026 My Business. All Rights Reserved.</p>
+  <p>&copy; 2026 Yassine Hakimy Business. All Rights Reserved.</p>
 </footer>
 
 </body>
